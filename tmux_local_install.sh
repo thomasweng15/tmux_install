@@ -13,7 +13,7 @@ cd $HOME/tmux_tmp
 
 # download source files for tmux, libevent, and ncurses
 wget https://github.com/tmux/tmux/archive/master.zip
-wget --no-check-certificate https://github.com/jianrenw/tmux_w-o_root/blob/master/libevent-2.1.8-stable.tar.gz
+wget --no-check-certificate https://github.com/jianrenw/tmux_w-o_root/raw/master/libevent-2.1.8-stable.tar.gz
 wget ftp://ftp.invisible-island.net/ncurses/ncurses.tar.gz
 
 # extract files, configure, and compile

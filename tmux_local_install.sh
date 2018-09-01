@@ -41,6 +41,7 @@ cd ..
 ############
 # tmux     #
 ############
+mv master master.zip
 unzip master.zip
 cd tmux-master
 sh autogen.sh
